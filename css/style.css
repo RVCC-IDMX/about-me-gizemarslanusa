@@ -6,7 +6,9 @@ body {
 
 h1, h2, h3, h4, h5, h5, h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
     
+
 }
 
 h1 {
@@ -38,7 +40,7 @@ header{
     width: 300px;
     border-style: solid;
     border-width: 20px;
-    border-color:#F08909;
+    border-color:;
     background-color:deepskyblue;
 }
 /*Bio section */
@@ -51,10 +53,43 @@ header{
 #hobbies ul li:nth-child(even){
     color:#F05D8B;
 }
+#hobbies ul, li{
+    text-align: center;
+    margin: auto;
+}
+
+
 
 #gallery{
     border: 4px solid #F05D8B;
 }
  #gallery img{
-    max: height 300px;;
+    max: height 300px;
+    
+
  }
+
+ /*Liturature*/
+ #lit {
+    border: 4px solid #F05D8B;
+    margin-bottom: 2rem;
+ }
+
+ #lit div{
+    padding:2rem ;
+    max-width: 40rem;
+    text-align:center;
+    margin: auto;
+ }
+#lit div p:first-letter{
+    color: #F08909;
+    font-size: 3em;
+    padding-right: 1rem;
+    list-style:circle;
+    line-height: .65;
+    margin-right: auto;
+    border: 4px solid #3560F0;
+    box-shadow: 3px 3px 3px  #F05D8B;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
