@@ -52,4 +52,9 @@ header{
     color:#F05D8B;
 }
 
-
+#gallery{
+    border: 4px solid #F05D8B;
+}
+ #gallery img{
+    max: height 300px;;
+ }
